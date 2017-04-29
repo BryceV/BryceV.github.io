@@ -1,0 +1,4 @@
+php myadmin
+firewall
+server name directive
+SEO
