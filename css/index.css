@@ -37,6 +37,20 @@ color: #999;
 text-decoration: none;
 }
 
+a.resumecolors:link {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+a.resumecolors:hover {
+    text-decoration: underline;
+}
+
+a.resumecolors:visited {
+    color: #551A8B;
+    text-decoration: none;
+}
+
 ul li {
 	display: inline-block; 
 }
