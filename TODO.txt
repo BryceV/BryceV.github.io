@@ -1,6 +1,0 @@
-php myadmin
-firewall
-server name directive
-SEO
-set up ssh with bitbucket? On server and on laptop. 
-Place bitbucket repo into web root folder? Good idea?
