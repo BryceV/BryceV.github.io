@@ -4,9 +4,14 @@ header {
 	padding:0;
 	background: black;
 	color: white;	
-  position: fixed;
-  z-index:1000;
+ 	/* position: fixed;
+ 	 z-index:1000;*/
 }
+
+.rowWithFullWidth {
+	margin-right= 0% !important;
+	margin-left= 0% !important;
+} 
 
 footer {
   width: 100%;
@@ -74,11 +79,11 @@ body {
 }
 
 body.container-fluid {
-	padding: 0;
+	/*padding: 0;*/
 }
 
 #whitebox {
-	margin: 6% 3% 0%;
+	margin: 0%;
   height: 100%;
 	padding: 0;
 	background-color: white;
