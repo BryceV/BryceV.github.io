@@ -72,6 +72,10 @@ img {
 	height: 30%;
 }
 
+.profileImg{
+	
+}
+
 body {
 	margin: 0% 5%;
 	padding: 0;
@@ -79,13 +83,13 @@ body {
 }
 
 body.container-fluid {
-	/*padding: 0;*/
+	padding: 0;
 }
 
 #whitebox {
 	margin: 0%;
-  height: 100%;
-	padding: 0;
+	height: 100%;
+	padding: 5%;
 	background-color: white;
 }
 
