@@ -89,8 +89,12 @@ body.container-fluid {
 #whitebox {
 	margin: 0%;
 	height: 100%;
-	padding: 5%;
+	padding: 0%;
 	background-color: white;
+}
+
+#mainTextBody {
+	padding: 0px 40px 0px 40px;
 }
 
 html {
