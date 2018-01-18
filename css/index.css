@@ -22,6 +22,7 @@ footer {
 
 .smallprint {
   font-size: 20px;
+  padding:5px;
 }
 
 header nav h1, nav ul{
@@ -34,26 +35,33 @@ nav ul li {
 	padding: 5px 10px;	
 }
 
+/*The important is needed to override bootstrap*/
 a {
-  color: white;
+  color: white !important;
 }
+
+ul.nav.navbar-nav.navbar-right li {
+	margin: 10px 0px 0px 5px;
+}
+
 a:hover {
-color: #999;
-text-decoration: none;
+background-color: black !important;
+color: #999 !important;
+text-decoration: none !important;
 }
 
 a.resumecolors:link {
-  color: #0000EE;
-  text-decoration: none;
+  color: #0000EE !important;
+  text-decoration: none !important;
 }
 
 a.resumecolors:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 a.resumecolors:visited {
-    color: #551A8B;
-    text-decoration: none;
+    color: #551A8B !important;
+    text-decoration: none !important;
 }
 
 ul li {
@@ -103,8 +111,9 @@ html {
 }
 
 .font1, h2 {
+	margin-top: 0px;
 	font-family: "Cinzel", serif;
-   padding: 0;
+    padding: 0;
 }
 
 .font2 {

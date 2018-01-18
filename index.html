@@ -14,13 +14,19 @@
 	<link rel="stylesheet" href="css/index.css" type="text/css">
 
 	<!-- Latest compiled and minified bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-fbrBVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Cinzel:700|Roboto" rel="stylesheet">
+	
+	<!-- Latest bootstrap JS and Jquery -->
+	</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
 
 	<!--Favicon-->
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
@@ -28,33 +34,55 @@
 
 <body class="container-fluid">
 	<header>	
-		<nav class="container">		
+		<nav class="navbar">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="fa fa-bars fa-2x" aria-hidden="true"></span>                       
+		  </button>
+			<ul>
+				<li><a href="#about" style="font-size: 30px">About</a></li>
+			</ul>
+		</div>
+
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="https://www.linkedin.com/in/brycevonilten" target='_blank'><span class="fa fa-linkedin-square fa-2x active" aria-hidden="true"></span><span class="smallprint">LinkedIn</span></a></li>
+			<li><a href="https://github.com/BryceV" target='_blank'><span class="fa fa-github fa-2x" aria-hidden="true"></span><span class="smallprint">Github</span></a></li>
+			<li><a href="https://www.freecodecamp.com/brycev" target='_blank'><span class="fa fa-free-code-camp fa-2x" aria-hidden="true"></span><span class="smallprint">FreeCodeCamp</span></a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+		<!--<nav class="container">		
 			<h1 id="arrows"><h1>
 			<a name="about"></a>
       			<ul style="float: left; padding: 0px">
 				<li><a href="#about">About</a></li>
-				<!--
+				
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#contact">Contact</a></li>
-				-->
+				
 			</ul>
       <ul class="text-center" style="float: right">
 				<li><a href="https://www.linkedin.com/in/brycevonilten" target='_blank'><i class="fa fa-linkedin-square" aria-hidden="true"></i><br><div class="smallprint">LinkedIn</div></a></li>
 				<li><a href="https://github.com/BryceV" target='_blank'><i class="fa fa-github" aria-hidden="true"></i><br><div class="smallprint">Github</div></a></li>
 				<li><a href="https://www.freecodecamp.com/brycev" target='_blank'><i class="fa fa-free-code-camp" aria-hidden="true"></i></i><br><div class="smallprint">FreeCodeCamp</div></a></li>
 			</ul>
-		</nav>
+		</nav>-->
 	</header>
       
   <div id="whitebox">
-    <br>
+	<br>
     <h1 class="text-center font1"  style="font-size:50px ">Bryce Vonilten</h1>
     <ul class="text-center font2">
+	<b>
       <li>Web Developer</li>
       <li>&bull;&nbsp;</li>
        <li>Software Engineer</li>
        <li>&bull;&nbsp;</li>
       <li>Man with a Plan</li>
+	</b>
     </ul>
 
     <hr>
