@@ -8,11 +8,6 @@ header {
  	 z-index:1000;*/
 }
 
-.rowWithFullWidth {
-	margin-right= 0% !important;
-	margin-left= 0% !important;
-} 
-
 footer {
   width: 100%;
 	padding: 1%;
