@@ -81,7 +81,9 @@ img {
 }
 
 .profileImg{
-	
+	width: 100%;
+	max-height: 380px;
+	max-width: 384px;
 }
 
 body {
