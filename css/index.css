@@ -20,6 +20,11 @@ footer {
   padding:5px;
 }
 
+.beginningFont {
+  /*text-decoration: underline;*/
+  font-weight: bold;
+}
+
 header nav h1, nav ul{
   display: inline;
 }
