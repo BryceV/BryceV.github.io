@@ -131,3 +131,8 @@ html {
     padding: 0;
 }
 
+#copyRightInfo {
+	font-style: solid;
+	font-size: 18px;
+}
+
