@@ -29,6 +29,10 @@ header nav h1, nav ul{
   display: inline;
 }
 
+.centerItems {
+  display: flex;
+}
+
 nav ul li {
 	margin: 10px 10px 10px 5px;
 	background: black;
