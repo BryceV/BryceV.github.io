@@ -26,4 +26,3 @@ This README would normally document whatever steps are necessary to get your app
 ### Who do I talk to? ###
 
 * Repo owner: Bryce Vonilten
-* Email: ki6bpd@gmail.com
