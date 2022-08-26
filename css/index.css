@@ -108,6 +108,10 @@ body {
 	/*align-items: center;*/
 }
 
+.break {
+	height: 30px
+}
+
 #innerBox {
 
 }
